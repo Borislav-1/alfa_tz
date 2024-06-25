@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "alfa-tz"
+version = "0.1.0"
+description = ""
+authors = ["baryslau.yaravy <baryslau.yaravy@azati.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.5"
+langchain-openai = "^0.1.9"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.5"
+duckduckgo-search = "^6.1.7"
+langgraph = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
